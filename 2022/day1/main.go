@@ -27,7 +27,7 @@ func sum(array []int) int {
 func main() {
 	fmt.Println("Day 1")
 
-	input, err := os.ReadFile("day1/input")
+	input, err := os.ReadFile("input")
 	check(err)
 
 	inputArray := strings.Split(string(input), "\r\n\r\n")

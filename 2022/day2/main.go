@@ -60,10 +60,10 @@ func main() {
 
 	fmt.Println("Advent of code")
 
-	input, err := os.ReadFile("day2/input")
+	input, err := os.ReadFile("input")
 	check(err)
 
-	rounds := strings.Split(string(input), "\r\n")
+	rounds := strings.Split(string(input), "\n")
 	day1Score := day1(rounds)
 	fmt.Println(day1Score)
 	day2Score := day2(rounds)
